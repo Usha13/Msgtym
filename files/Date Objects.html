@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head><title> Date Objects</title></head>
+<body>
+<script>
+
+// simply Date() method to show the date and time
+alert(Date());
+
+// get method
+
+var a=new Date();
+
+// the get day shows output from 0to 6 because it count sunday as 0 and monday 1 and so on.
+document.write("day():" + a.getDay()); 
+document.write("</br>FullYear():" + a.getFullYear());
+document.write("</br>Milliseconds():" + a.getMilliseconds());
+document.write("</br>Hours():" + a.getHours());
+document.write("</br>Minutes():" + a.getMinutes());
+document.write("</br>Month():" + a.getMonth());
+document.write("</br>Seconds():" + a.getSeconds());
+
+// the getTime method counts the milliseconds from 1 jan 1970
+document.write("</br>Time():" + a.getTime()+"</br>");
+
+// set method
+
+var b=new Date("Dec 31,2018 23:59:59");
+document.write(b);
+
+document.write("</br>");
+b.setDate(01);
+document.write(b);
+
+document.write("</br>");
+b.setMonth(00);
+document.write(b);
+
+document.write("</br>");
+b.setHours(00);
+document.write(b);
+
+document.write("</br>");
+b.setMinutes(00);
+document.write(b);
+
+document.write("</br>");
+b.setFullYear(2019);
+document.write(b);
+
+</script>
+</body>
+</html>

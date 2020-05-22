@@ -1,0 +1,75 @@
+  body{
+	
+	background-image:url('../bg/img1.jpg');
+	background-repeat:no-repeat;
+	height:100%;
+	margin:0px;
+	padding:0px;
+	background-size:cover;
+	background-position:center;
+   }
+	  
+.box
+{   
+	position:absolute;
+	top:90%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	background:rgba(0,0,0,0.6);
+	border-radius:10px;
+	overflow-y:auto;
+}	
+ 
+ 
+.box table th{
+	height:50px;
+	width:800px;
+}
+.box h1{
+	color:white;
+	height:40px;
+	text-align:center;
+	margin-top:20px;
+}
+.l
+{
+	color:white;
+	font-size:22px;
+}
+.ip
+{
+    width:400px;
+	height:30px;
+	font-size:20px;
+	color:white;
+	text-align:center;
+}
+.ip1
+{
+    width:400px;
+	height:30px;
+	font-size:20px;
+	color:black;
+	background-color:white;
+	
+}
+
+#b{
+	width:150px;
+	height:40px;
+	border-radius:10px;
+	background:skyblue;
+	color:black;
+	font-size:20px;
+	font-weight:bold;
+}
+
+.ex{
+	text-decoration:none;
+	width:300px;
+	color:skyblue;
+	text-align:center;
+	font-size:20px;
+}
+
+  
